@@ -1,0 +1,16 @@
+.platform-ios {
+	.statusbar-transluced .transluced-bar {
+		height: 20px;
+	}
+	.platform-transition {
+		@include transition(500ms);
+	}
+}
+.platform-android {
+	.statusbar-transluced .transluced-bar {
+		height: 25px;
+	}
+	.platform-transition {
+		@include transition(200ms);
+	}
+}

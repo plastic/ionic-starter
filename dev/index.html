@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="ionic-starter">
+    <head>
+        <title>ionic-starter</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <!-- build:css assets/stylesheets/ionic.min.css -->
+        <!-- <link href="assets/styles/ionic.min.css" rel="stylesheet"> -->
+        <!-- If you want to modularize the ionic style to your liking remove the ionic style sheet below and use the up -->
+        <link href="../bower_components/ionic/release/css/ionic.min.css" rel="stylesheet">
+        <!-- endbuild -->
+
+        <!-- build:css assets/stylesheets/main.min.css -->
+        <link href="assets/stylesheets/main.min.css" rel="stylesheet">
+        <!-- endbuild -->
+
+        <!-- build:js app/libs.min.js -->
+        <script src="../bower_components/ionic/release/js/ionic.bundle.min.js"></script>
+        <script src="../bower_components/a0-angular-storage/dist/angular-storage.min.js"></script>
+        <script src="../bower_components/ngCordova/dist/ng-cordova.min.js"></script>
+        <!-- endbuild -->
+
+        <!-- inject:cordova -->
+
+        <!-- build:js app/main.min.js -->
+        <script src="app/app.modules.js"></script>
+        <script src="app/app.config.js"></script>
+        <script src="app/app.run.js"></script>
+        <script src="app/constants/storage.constant.js"></script>
+        <script src="app/directives/analytics-tracker.directive.js"></script>
+        <script src="app/directives/browse-to.directive.js"></script>
+        <script src="app/directives/image-load.directive.js"></script>
+        <script src="app/directives/field-change.directive.js"></script>
+        <script src="app/directives/repeater-end.directive.js"></script>
+        <script src="app/factories/interceptor.factory.js"></script>
+        <script src="app/factories/analytics.factory.js"></script>
+        <script src="app/factories/data.factory.js"></script>
+        <script src="app/services/receipt.service.js"></script>
+        <script src="app/services/send.service.js"></script>
+        <script src="app/partials/base.controller.js"></script>
+
+        <script src="templates.js"></script>
+        <!-- endbuild -->
+
+    </head>
+    <body>
+
+        <!--==== Partial ====-->
+        <ion-nav-view></ion-nav-view>
+        <!--==== Partial ====-->
+
+    </body>
+</html>

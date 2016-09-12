@@ -1,0 +1,18 @@
+# Ignored folders
+.sass-cache/
+bower_components/
+hooks/
+node_modules/
+doc/
+platforms/
+plugins/
+stylesheets/
+www/
+
+# Ignored files
+templates.js
+
+# Ignored extensions
+*.DS_Store
+*.lnk
+*.log

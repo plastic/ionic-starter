@@ -1,0 +1,4 @@
+.ng-animate {
+    @include perspective(1000);
+    @include backface-visibility(hidden);
+}
